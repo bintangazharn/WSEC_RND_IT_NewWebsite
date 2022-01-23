@@ -1,0 +1,280 @@
+body {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    color: #333333;
+    margin: 0 auto;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.header_left {
+    order: 1;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 120px;
+}
+.header_right {
+    order: 2;
+    width: 420px;
+    height: 800px;
+    background-color: #00086B;
+}
+
+/* Menu */
+.menu_container {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 33.33%;
+}
+.img_menu {
+    order: 1;
+    width: 70px;
+}
+.menu {
+    order: 2;
+    width: 100%;
+    margin-left: 80px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+}
+.menu ul, li {
+    display: inline-block;
+    list-style: none;
+}
+.menu li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Title */
+.title_container {
+    order: 2;
+    height: 33.33%;
+    margin-top: -100px;
+    margin-bottom: 140px;
+}
+.title_container h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 58px;
+    letter-spacing: -1.3px;
+}
+.title_container a {
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    padding: 15px;
+    background-color: #00086B;
+    border-radius: 10px;
+}
+
+/* Header Content Container */
+.header_content_container {
+    order: 3;
+    height: 33.33%;
+    width: 80%;
+    border-top-style: solid;
+    border-top-color: #EBEBEB;
+    border-top-width: 1px;
+}
+.header_content_container h6 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 17px;
+}
+.header_content_container p {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* Content */
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cerita */
+.content_cerita {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.content_cerita_left {
+    order: 1;
+    width: 50%;
+}
+.content_cerita_left h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 48px;
+    font-size: 44px;
+}
+.content_cerita_left p {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.content_cerita_right {
+    order: 2;
+    width: 50%;
+    text-align: right;
+}
+
+/* Harga */
+.content_harga {
+    order: 2;
+    text-align: center;
+    margin-top: 50px;
+}
+.content_harga h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.95px;
+    line-height: 48px;
+    font-size: 44px;
+}
+.content_harga p {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.content_harga_main {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80%;
+}
+.content_harga_main h6 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3.5px;
+}
+.content_harga_main h1 {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    color: #00086B;
+    font-size: 48px;
+    display: inline-block;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+.content_harga_main h1 blockquote {
+    letter-spacing: -0.58px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    font-size: 28px;
+    display: inline-block;
+}
+.content_harga_main p {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Tombol Content Harga Main*/
+.content_harga_main a {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #00086B;
+    border-radius: 4px;
+    font-size: 12px;
+    letter-spacing: 3.15px;
+    line-height: 17px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content_harga_main_1, .content_harga_main_2, .content_harga_main_3 {
+    box-shadow: 0 0 10px #c4c4c4;
+    padding: 20px;
+    width: 280px;
+    margin: 20px;
+}
+.content_harga_main_1 {
+    order: 1;
+}
+.content_harga_main_2 {
+    order: 2;
+}
+.content_harga_main_3 {
+    order: 3;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.upper_footer {
+    order: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.upper_footer p {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: -10px;
+}
+.upper_footer i {
+    font-size: 24px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.bottom_footer {
+    order: 2;
+    border-top-color: #c4c4c4;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.bottom_footer p {
+    margin-left: 120px;
+}
